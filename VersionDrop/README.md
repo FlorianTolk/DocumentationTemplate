@@ -64,6 +64,7 @@ Any software developed under a Gnu Public License (GPL) that has been modified m
 *The following information does not need to be included in the README, but needs to included in all PR's*
 ## Update Documentation
 Every time a new update needs to be pushed to the ADL GitHub, the vendor will push to their branch initially, including all below information.
+After pushing to their branch, the vendor is to generate a pull request that must be approved by ADL. 
 ### New version number in the push title
 Version format is #.#.#
 Version updating #.#.X is minor, non breaking changes
