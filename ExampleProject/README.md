@@ -4,25 +4,55 @@ A simple NodeJS Express application for standing up an HTTP server.  The goal of
 ## Hardware requirements
 ### Computational Resource Requirements
 CPU Cores: 1
+
 CPU Clock Speed: 1.3 GHz
+
 RAM requirements: 2 GiB
 ### Minimal Physical Storage
 Drive Space: 2GB (Plus storage for hosted files)
+
 *HHD or SSD agnostic*
 
 ## Operating System Requirements
 ### Drivers and other software
-Required Kernel Divers (including version)
-Libraries (including version)
+Required Kernel Divers: 
+- xt_nat v4.15.0-43-generic
+- zstd_compress 4.15.0-43-generic
+- xor 4.15.0-43-generic
+- raid6_pq 4.15.0-43-generic
+- nfnetlink 4.15.0-43-generic
+- xfrm_user 4.15.0-43-generic
+- iptable_nat 4.15.0-43-generic
+- nf_conntrack_ipv4 4.15.0-43-generic
+- xt_addrtype 4.15.0-43-generic
+- iptable_filter 4.15.0-43-generic
+- xt_conntrack 4.15.0-43-generic
+- aufs 4.15.0-43-generic
+- snd_intel8x0 4.15.0-43-generic
+
+Required Libraries:
+- libapt-pkg5.0 v1.2.29ubuntu0.1
+- libc6 v2.23-0ubuntu11
+- libgcc1 v6.0.1-0ubuntu1
+- libstdc++6 v5.4.0-6ubuntu1~16.04.11
+- init-system-helpers v1.29ubuntu4
+- ubuntu-keyring v2012.05.19
+- gpgv v1.4.20-1ubuntu3.3
+- gnupg v1.4.20-1ubuntu3.3
+- gnupg2 v2.1.11-6ubuntu2.1
+- adduser v3.113+nmu3ubuntu4
+
 ### System Setup
 Required Operating System: Ubuntu 16.04.6 LTS
+
 Required user permissions: One user with root access
+
 Required credentials: N\A
 ### Additional Requirements
 Third party libraries
 - [axios](https://www.npmjs.com/package/axios) v0.18.0
 - [cors](https://www.npmjs.com/package/cors) v2.8.5
-- [ejs](https://www.npmjs.com/package/ejs) v2.6.1
+- [ejs](https://www.npmjs.com/padduserackage/ejs) v2.6.1
 - [express](https://www.npmjs.com/package/express) v4.16.4
 
 Third Party applications:
@@ -33,6 +63,7 @@ Third Party applications:
 - Docker v1.5.1 OR Docker-Compose v1.8.0-2~16.04.1r
 
 URL and download instructions for above libraries and applications:
+
 All libraries and third party software can be installed by running the install-reqs shell file
 
 - `sudo apt update`
@@ -52,10 +83,12 @@ Licensing information for above libraries and applications
 
 ## Application Documentation
 ### Deployment Description
-Default network topology
-Default IP addresses
-Default Port usage: Port
-Assignment of servers and each HW
+#### Default network topology
+Default IP addresses: 127.0.0.1
+
+Default Port usage: Port 80
+
+Additional Software or Hardware requirements: None
 ### Deployment Instructions
 Each of the below will begin with opening your favorite shell.  **The instructions for Docker have not been tested on Windows.**
 #### Node
