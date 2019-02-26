@@ -11,7 +11,7 @@ This README template can also be used for all non-SCE updates to a repository.
 ## Version Drop
 This folder contains a template for a properly documented version update README templates.
 
-#Pull Requests
+# Pull Requests
 ## Update Documentation
 Every time a new update needs to be pushed to the ADL GitHub, the vendor will push to their branch initially, including all below information.
 After pushing to their branch, the vendor is to generate a pull request that must be approved by ADL. 
