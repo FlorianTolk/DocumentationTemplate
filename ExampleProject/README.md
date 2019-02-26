@@ -13,9 +13,13 @@ Drive Space: 2GB (Plus storage for hosted files)
 
 *HHD or SSD agnostic*
 
+### Additional Hardware required
+Network Interface Card
+
 ## Operating System Requirements
 ### Drivers and other software
-Required Kernel Divers: 
+Required Kernel and Drivers: 
+- Ubuntu Kernel  4.15.0-45-generic #48~16.04.1-Ubuntu SMP
 - xt_nat v4.15.0-43-generic
 - zstd_compress 4.15.0-43-generic
 - xor 4.15.0-43-generic
