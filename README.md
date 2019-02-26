@@ -1,7 +1,7 @@
 # DocumentationTemplate
 A small repository that can be used as a template for good public use documentation
 
-##Example Project
+## Example Project
 This folder is a sample of a project currently under development 
 
 ## Orginal Drop
